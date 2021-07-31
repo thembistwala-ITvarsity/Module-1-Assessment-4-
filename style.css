@@ -1,0 +1,38 @@
+table{
+    width: 400px;
+    font-family:  Helvetica, sans-serif;
+    border-collapse: collapse;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #83a8ad;
+
+}
+th{
+    text-align: left;
+}
+h1{
+    color:#610B21 ;
+    font-family: Verdana, Geneva, Tahoma;
+    
+}
+
+h4{
+    color: navy;
+    font-family: Verdana, Geneva, Tahoma;
+    font-style: italic;
+    
+}
+tr:nth-child(even) {
+    background-color: oldlace;
+}
+
+tr:nth-child(odd){
+    background-color:#ddd;
+}
+th, td{
+    padding: 10px;
+}
+th,td a:hover{
+    background-color: palevioletred;
+    color: #ffffff;
+}
